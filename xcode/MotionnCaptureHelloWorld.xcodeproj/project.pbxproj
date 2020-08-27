@@ -17,13 +17,10 @@
 		00B9955A1B128DF400A5C623 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995581B128DF400A5C623 /* IOKit.framework */; };
 		00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995591B128DF400A5C623 /* IOSurface.framework */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
-		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		F71031B930944E81A4303F48 /* Osc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB919F0AB3944A381D2D345 /* Osc.h */; };
-		69639AB1DE914951B245E9C3 /* Osc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62E1EC6B8ECC431AA06C11B4 /* Osc.cpp */; };
-		EDCDEDD2325A416CBF982AF1 /* MotionnCaptureHelloWorld_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = D76066CC41EA48469C90044C /* MotionnCaptureHelloWorld_Prefix.pch */; };
-		733CFC3AF9F94E86AD41BBB6 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2F3F37DCC3E6433AB81D2034 /* CinderApp.icns */; };
-		2DDD9DFD1C7A40A28A1169C4 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = C96791F78BCD4B36BF31040B /* Resources.h */; };
 		65B2AB98137543ACA834BB03 /* MotionnCaptureHelloWorldApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E623BF4E8E1143EA9C9EF0FD /* MotionnCaptureHelloWorldApp.cpp */; };
+		69639AB1DE914951B245E9C3 /* Osc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62E1EC6B8ECC431AA06C11B4 /* Osc.cpp */; };
+		733CFC3AF9F94E86AD41BBB6 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2F3F37DCC3E6433AB81D2034 /* CinderApp.icns */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,17 +34,18 @@
 		00B995581B128DF400A5C623 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		00B995591B128DF400A5C623 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		10797B133649408184939881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1807346224F84F4C00579DEA /* CinderOpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CinderOpenCV.h; path = ../../../../Downloads/CinderOpenCV.h; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F3F37DCC3E6433AB81D2034 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		4AB919F0AB3944A381D2D345 /* Osc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Osc.h; path = ../../blocks/OSC/src/cinder/osc/Osc.h; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		62E1EC6B8ECC431AA06C11B4 /* Osc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = Osc.cpp; path = ../../blocks/OSC/src/cinder/osc/Osc.cpp; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MotionnCaptureHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionnCaptureHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E623BF4E8E1143EA9C9EF0FD /* MotionnCaptureHelloWorldApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/MotionnCaptureHelloWorldApp.cpp; sourceTree = "<group>"; name = MotionnCaptureHelloWorldApp.cpp; };
-		C96791F78BCD4B36BF31040B /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
-		2F3F37DCC3E6433AB81D2034 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
-		10797B133649408184939881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
-		D76066CC41EA48469C90044C /* MotionnCaptureHelloWorld_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = MotionnCaptureHelloWorld_Prefix.pch; sourceTree = "<group>"; name = MotionnCaptureHelloWorld_Prefix.pch; };
-		62E1EC6B8ECC431AA06C11B4 /* Osc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../blocks/OSC/src/cinder/osc/Osc.cpp; sourceTree = "<group>"; name = Osc.cpp; };
-		4AB919F0AB3944A381D2D345 /* Osc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../blocks/OSC/src/cinder/osc/Osc.h; sourceTree = "<group>"; name = Osc.h; };
+		C96791F78BCD4B36BF31040B /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		D76066CC41EA48469C90044C /* MotionnCaptureHelloWorld_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = MotionnCaptureHelloWorld_Prefix.pch; sourceTree = "<group>"; };
+		E623BF4E8E1143EA9C9EF0FD /* MotionnCaptureHelloWorldApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = MotionnCaptureHelloWorldApp.cpp; path = ../src/MotionnCaptureHelloWorldApp.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				A816865F906F4F7595859D1E /* OSC */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,50 +134,10 @@
 			name = MotionnCaptureHelloWorld;
 			sourceTree = "<group>";
 		};
-		F0FFB0C364FE46BF8769D2ED /* osc */ = {
-			isa = PBXGroup;
-			children = (
-				62E1EC6B8ECC431AA06C11B4 /* Osc.cpp */,
-				4AB919F0AB3944A381D2D345 /* Osc.h */,
-			);
-			name = osc;
-			sourceTree = "<group>";
-		};
-		F2F5B465F9464C0199CDAB97 /* cinder */ = {
-			isa = PBXGroup;
-			children = (
-				F0FFB0C364FE46BF8769D2ED /* osc */,
-			);
-			name = cinder;
-			sourceTree = "<group>";
-		};
-		9451EBE30A9B4F7287793CF5 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				F2F5B465F9464C0199CDAB97 /* cinder */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		A816865F906F4F7595859D1E /* OSC */ = {
-			isa = PBXGroup;
-			children = (
-				9451EBE30A9B4F7287793CF5 /* src */,
-			);
-			name = OSC;
-			sourceTree = "<group>";
-		};
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-				A816865F906F4F7595859D1E /* OSC */,
-			);
-			name = Blocks;
-			sourceTree = "<group>";
-		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				1807346224F84F4C00579DEA /* CinderOpenCV.h */,
 				C96791F78BCD4B36BF31040B /* Resources.h */,
 				D76066CC41EA48469C90044C /* MotionnCaptureHelloWorld_Prefix.pch */,
 			);
@@ -194,6 +160,39 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9451EBE30A9B4F7287793CF5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F2F5B465F9464C0199CDAB97 /* cinder */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		A816865F906F4F7595859D1E /* OSC */ = {
+			isa = PBXGroup;
+			children = (
+				9451EBE30A9B4F7287793CF5 /* src */,
+			);
+			name = OSC;
+			sourceTree = "<group>";
+		};
+		F0FFB0C364FE46BF8769D2ED /* osc */ = {
+			isa = PBXGroup;
+			children = (
+				62E1EC6B8ECC431AA06C11B4 /* Osc.cpp */,
+				4AB919F0AB3944A381D2D345 /* Osc.h */,
+			);
+			name = osc;
+			sourceTree = "<group>";
+		};
+		F2F5B465F9464C0199CDAB97 /* cinder */ = {
+			isa = PBXGroup;
+			children = (
+				F0FFB0C364FE46BF8769D2ED /* osc */,
+			);
+			name = cinder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +221,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MotionnCaptureHelloWorld" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -269,21 +270,83 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MotionnCaptureHelloWorld_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MotionnCaptureHelloWorld_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\"",
+					/usr/local/Cellar/opencv/4.4.0_1/include/opencv4,
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/macosx/$(CONFIGURATION)/libcinder.a\"";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/4.4.0_1/lib;
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/macosx/$(CONFIGURATION)/libcinder.a\"",
+					"-I/usr/local/Cellar/opencv/4.4.0_1/include/opencv4",
+					"-L/usr/local/Cellar/opencv/4.4.0_1/lib",
+					"-lopencv_gapi",
+					"-lopencv_stitching",
+					"-lopencv_alphamat",
+					"-lopencv_aruco",
+					"-lopencv_bgsegm",
+					"-lopencv_bioinspired",
+					"-lopencv_ccalib",
+					"-lopencv_dnn_objdetect",
+					"-lopencv_dnn_superres",
+					"-lopencv_dpm",
+					"-lopencv_highgui",
+					"-lopencv_face",
+					"-lopencv_freetype",
+					"-lopencv_fuzzy",
+					"-lopencv_hfs",
+					"-lopencv_img_hash",
+					"-lopencv_intensity_transform",
+					"-lopencv_line_descriptor",
+					"-lopencv_quality",
+					"-lopencv_rapid",
+					"-lopencv_reg",
+					"-lopencv_rgbd",
+					"-lopencv_saliency",
+					"-lopencv_sfm",
+					"-lopencv_stereo",
+					"-lopencv_structured_light",
+					"-lopencv_phase_unwrapping",
+					"-lopencv_superres",
+					"-lopencv_optflow",
+					"-lopencv_surface_matching",
+					"-lopencv_tracking",
+					"-lopencv_datasets",
+					"-lopencv_text",
+					"-lopencv_dnn",
+					"-lopencv_plot",
+					"-lopencv_videostab",
+					"-lopencv_videoio",
+					"-lopencv_viz",
+					"-lopencv_xfeatures2d",
+					"-lopencv_shape",
+					"-lopencv_ml",
+					"-lopencv_ximgproc",
+					"-lopencv_video",
+					"-lopencv_xobjdetect",
+					"-lopencv_objdetect",
+					"-lopencv_calib3d",
+					"-lopencv_imgcodecs",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_xphoto",
+					"-lopencv_photo",
+					"-lopencv_imgproc",
+					"-lopencv_core",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libcinder.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MotionnCaptureHelloWorld;
 				SYMROOT = ./build;
@@ -301,16 +364,78 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MotionnCaptureHelloWorld_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"NDEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MotionnCaptureHelloWorld_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\"",
+					/usr/local/Cellar/opencv/4.4.0_1/include/opencv4,
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/macosx/$(CONFIGURATION)/libcinder.a\"";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/4.4.0_1/lib;
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/macosx/$(CONFIGURATION)/libcinder.a\"",
+					"-I/usr/local/Cellar/opencv/4.4.0_1/include/opencv4",
+					"-L/usr/local/Cellar/opencv/4.4.0_1/lib",
+					"-lopencv_gapi",
+					"-lopencv_stitching",
+					"-lopencv_alphamat",
+					"-lopencv_aruco",
+					"-lopencv_bgsegm",
+					"-lopencv_bioinspired",
+					"-lopencv_ccalib",
+					"-lopencv_dnn_objdetect",
+					"-lopencv_dnn_superres",
+					"-lopencv_dpm",
+					"-lopencv_highgui",
+					"-lopencv_face",
+					"-lopencv_freetype",
+					"-lopencv_fuzzy",
+					"-lopencv_hfs",
+					"-lopencv_img_hash",
+					"-lopencv_intensity_transform",
+					"-lopencv_line_descriptor",
+					"-lopencv_quality",
+					"-lopencv_rapid",
+					"-lopencv_reg",
+					"-lopencv_rgbd",
+					"-lopencv_saliency",
+					"-lopencv_sfm",
+					"-lopencv_stereo",
+					"-lopencv_structured_light",
+					"-lopencv_phase_unwrapping",
+					"-lopencv_superres",
+					"-lopencv_optflow",
+					"-lopencv_surface_matching",
+					"-lopencv_tracking",
+					"-lopencv_datasets",
+					"-lopencv_text",
+					"-lopencv_dnn",
+					"-lopencv_plot",
+					"-lopencv_videostab",
+					"-lopencv_videoio",
+					"-lopencv_viz",
+					"-lopencv_xfeatures2d",
+					"-lopencv_shape",
+					"-lopencv_ml",
+					"-lopencv_ximgproc",
+					"-lopencv_video",
+					"-lopencv_xobjdetect",
+					"-lopencv_objdetect",
+					"-lopencv_calib3d",
+					"-lopencv_imgcodecs",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_xphoto",
+					"-lopencv_photo",
+					"-lopencv_imgproc",
+					"-lopencv_core",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libcinder.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MotionnCaptureHelloWorld;
 				STRIP_INSTALLED_PRODUCT = YES;
@@ -323,7 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CINDER_PATH = "../..";
+				CINDER_PATH = ../..;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CLANG_CXX_LIBRARY = "libc++";
 				ENABLE_TESTABILITY = YES;
@@ -333,10 +458,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = (
-					"\"$(CINDER_PATH)/include\" ../include",
-					../../blocks/OSC/src,
-				);
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../../blocks/OSC/src";
 			};
 			name = Debug;
 		};
@@ -344,7 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CINDER_PATH = "../..";
+				CINDER_PATH = ../..;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -352,10 +474,7 @@
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = (
-					"\"$(CINDER_PATH)/include\" ../include",
-					../../blocks/OSC/src,
-				);
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../../blocks/OSC/src";
 			};
 			name = Release;
 		};
